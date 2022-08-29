@@ -1,6 +1,6 @@
 @extends('frontend.layouts.master')
 
-@section('title','HuDo || About Us')
+@section('title','Online Musical Instrument Shop || About Us')
 
 @section('main-content')
 

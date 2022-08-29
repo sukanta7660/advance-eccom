@@ -1,6 +1,6 @@
 @extends('frontend.layouts.master')
 
-@section('title','HuDo || Order Track Page')
+@section('title','Online Musical Instrument Shop || Order Track Page')
 
 @section('main-content')
     <!-- Breadcrumbs -->

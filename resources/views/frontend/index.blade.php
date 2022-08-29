@@ -1,5 +1,5 @@
 @extends('frontend.layouts.master')
-@section('title','HuDo || HOME PAGE')
+@section('title','Online Musical Instrument Shop || HOME PAGE')
 @section('main-content')
 <!-- Slider Area -->
 @if(count($banners)>0)

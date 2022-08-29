@@ -94,7 +94,7 @@ Route::get('payment/success', 'PayPalController@success')->name('payment.success
 
 // Backend section start
 
-Route::group(['prefix'=>'/admin','middleware'=>['auth','admin', 'verified']],function(){
+Route::group(['prefix'=>'/admin','middleware'=>['auth','admin']],function(){
     Route::get('/','AdminController@index')->name('admin');
     Route::get('/file-manager',function(){
         return view('backend.layouts.file-manager');
