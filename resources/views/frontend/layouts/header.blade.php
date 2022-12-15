@@ -9,7 +9,6 @@
                         <ul class="list-main">
                             @php
                                 $settings=DB::table('settings')->get();
-
                             @endphp
                             <li><i class="ti-headphone-alt"></i>@foreach($settings as $data) {{$data->phone}} @endforeach</li>
                             <li><i class="ti-email"></i> @foreach($settings as $data) {{$data->email}} @endforeach</li>
@@ -135,9 +134,9 @@
                             @endauth
                             <!--/ End Shopping Item -->
                         </div>
-                        {{-- <div class="sinlge-bar">
+                       <div class="sinlge-bar">
                             <a href="{{route('wishlist')}}" class="single-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        </div> --}}
+                        </div>
                         <div class="sinlge-bar shopping">
                             <a href="{{route('cart')}}" class="single-icon"><i class="ti-bag"></i> <span class="total-count">{{Helper::cartCount()}}</span></a>
                             <!-- Shopping Item -->
