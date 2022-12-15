@@ -1,10 +1,3 @@
-/* =====================================
-Template Name: Eshop
-Author Name: Naimur Rahman
-Author URI: http://www.wpthemesgrid.com/
-Description: Eshop - eCommerce HTML5 Template.
-Version:1.0
-========================================*/
 /* Tablet Screen */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 .section{
@@ -215,7 +208,7 @@ Version:1.0
 	padding: 10px 20px;
 }
 .small-banner {
-	padding: 18px 0;	
+	padding: 18px 0;
 }
 .small-banner .single-banner.tab-height{
 	height:300px;
@@ -403,7 +396,7 @@ Version:1.0
 	display:none;
 }
 .slicknav_nav li:hover a{
-	color:#F7941D;
+	color:#285a2a;
 	background:transparent;
 }
 .slicknav_nav li:hover{
@@ -433,12 +426,12 @@ Version:1.0
 	padding-bottom:0px;
 }
 .slicknav_menu .slicknav_icon-bar {
-	background-color: #F7941D;
+	background-color: #285a2a;
 	box-shadow: none;
 	text-shadow: none;
 }
 .slicknav_nav .slicknav_arrow{
-	color:#F7941D;
+	color:#285a2a;
 }
 .slicknav_menu .slicknav_icon-bar {
 	display: block;
@@ -523,7 +516,7 @@ Version:1.0
 	display: none;
 }
 .header .header-inner{
-	display:none 
+	display:none
 }
 .hero-slider {
 	height: 350px;
@@ -640,7 +633,7 @@ Version:1.0
 }
 .small-banner {
 	padding: 18px 0;
-	
+
 }
 .small-banner .single-banner{
 	margin-bottom: 18px;
@@ -884,7 +877,7 @@ Version:1.0
 	width: 50%;
 	height: 100%;
 	border-bottom: 1px solid #e6ebee;
-	background: #F7941D;
+	background: #285a2a;
 	color: #fff;
 	border: none;
 }
@@ -1116,7 +1109,7 @@ Version:1.0
 	display:none;
 }
 .slicknav_nav li:hover a{
-	color:#F7941D;
+	color:#285a2a;
 	background:transparent;
 }
 .slicknav_nav li:hover{
@@ -1130,7 +1123,7 @@ Version:1.0
 	background:transparent;
 }
 .slicknav_nav li .dropdown li a:hover{
-	color:#F7941D;
+	color:#285a2a;
 	background:transparent;
 }
 .slicknav_nav li .slicknav_item{
@@ -1146,7 +1139,7 @@ Version:1.0
 	padding-bottom:0px;
 }
 .slicknav_menu .slicknav_icon-bar {
-	background-color: #F7941D;
+	background-color: #285a2a;
 	box-shadow: none;
 	text-shadow: none;
 }
@@ -1255,7 +1248,7 @@ Version:1.0
 	display: none;
 }
 .header .header-inner{
-	display:none 
+	display:none
 }
 .header.shop .nav li .new {
 	display:none !important;
@@ -1298,7 +1291,7 @@ Version:1.0
 }
 .small-banner {
 	padding: 18px 0;
-	
+
 }
 .small-banner .single-banner{
 	margin-bottom: 18px;

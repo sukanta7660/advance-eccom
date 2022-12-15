@@ -122,7 +122,7 @@
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  background:#F7941D;
+  background:#0b8e3f;
   -webkit-animation: preloader-fx 1.6s linear infinite;
   animation: preloader-fx 1.6s linear infinite;
 }
@@ -182,7 +182,7 @@
 	box-shadow: 0px 4px 19px #00000038;
 }
 #scrollUp i:hover{
-	background:#F7941D;
+	background:#0b8e3f;
 	color:#fff;
 }
 /*======================================
@@ -921,6 +921,7 @@
 .header.shop .nav li:hover a {
     color: #fff;
     background: #285a2a;
+    text-decoration: none;
 }
 .header.shop.v2 .nav li:hover a{
 	color:#F7941D;
@@ -992,7 +993,7 @@
 	transform: translateY(3px);
 }
 .header.shop .right-bar .sinlge-bar.top-search a:hover {
-	color:#F7941D;
+	color:#0b8e3f;
 }
 .header.shop .right-bar .sinlge-bar .single-icon{
 	color:#333;
@@ -1000,7 +1001,7 @@
 	position:relative;
 }
 .header.shop .right-bar .sinlge-bar .single-icon:hover{
-	color:#F7941D;
+	color:#285a2a;
 }
 .header.shop .right-bar .sinlge-bar .single-icon .total-count {
 	position: absolute;
@@ -2035,8 +2036,8 @@
 	box-shadow: none;
 	border: none;
 	height: 4px;
-	background: #F7941D;
-	color: #F7941D;
+	background: #285a2a;
+	color: #285a2a;
 	border-radius: 0px;
 }
 .shop .range #slider-range .ui-slider-range {
@@ -2062,8 +2063,8 @@
 	color:#282828;
 }
 .shop .range .ui-slider-handle.ui-state-default.ui-corner-all {
-	background: #F7941D;
-	color: #F7941D;
+	background: #0b8e3f;
+	color: #0b8e3f;
 	cursor:pointer;
 }
 .shop .range .label-input input {
@@ -2251,7 +2252,7 @@
 }
 .shop .view-mode li.active a,
 .shop .view-mode li:hover a {
-	background: #F7941D;
+	background: #285a2a;
 	color:#fff;
 	border-color:transparent;
 }
@@ -2906,7 +2907,7 @@
 	padding:0px 50px;
 }
 .shopping-summery thead {
-	background: #F7941D;
+	background: #285a2a;
 	color: #fff;
 }
 .shopping-summery thead tr th {
@@ -3809,12 +3810,12 @@
 	bottom: -1px;
 	height: 2px;
 	width: 60px;
-	background: #F7941D;
+	background: #0b8e3f;
 }
 .about-us .about-content h3 span{
 	display:inline-block;
 	font-weight:700;
-	color:#F7941D;
+	color:#0b8e3f;
 }
 .about-us .about-content p {
 	line-height: 26px;
@@ -3832,11 +3833,11 @@
 	margin-right:15px;
 }
 .about-us .about-content .button .btn:hover{
-	background:#F7941D;
+	background:#285a2a;
 	color:#fff;
 }
 .about-us .about-content .button .btn.primary{
-	background:#F7941D;
+	background:#285a2a;
 	color:#fff;
 }
 .about-us .about-content .button .btn.primary:hover{
@@ -3887,7 +3888,7 @@
 }
 .about-us .about-img .video:hover{
 	background:#fff;
-	color:#F7941D;
+	color:#285a2a;
 }
 .about-us .about-img:hover .video{
 	transform:scale(1);
