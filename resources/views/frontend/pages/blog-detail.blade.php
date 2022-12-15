@@ -1,6 +1,6 @@
 @extends('frontend.layouts.master')
 
-@section('title','Online Musical Instrument Shop || Blog Detail page')
+@section('title','Blog Detail page')
 
 @section('main-content')
     <!-- Breadcrumbs -->

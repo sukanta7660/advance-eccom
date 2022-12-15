@@ -1,40 +1,3 @@
-/* =====================================
-Template Name: Eshop
-Author Name: Naimur Rahman
-Author URI: http://www.wpthemesgrid.com/
-Description: Eshop - eCommerce HTML5 Template.
-Version:1.0
-========================================*/
-/*======================================
-[ CSS Table of contents ]
-01. Preloader CSS
-02. Header CSS
-	+ Logo
-	+ Category Menu
-	+ Main Menu
-03. Hero Area CSS
-04. Small Banner CSS
-05. Medium Banner CSS
-06. Single Product CSS
-07. Shop Sidebar CSS
-08. Shop Single CSS
-09. Shop Home List CSS
-10. Cart CSS
-11. Checkout CSS
-12. Login & Register CSS
-13. Cowndown CSS
-14. Shop Services CSS
-15. Newslatter CSS
-16. About Us CSS
-17. Team CSS
-18. Blog CSS	
-	+ Blog Archive
-	+ Blog Sidebar
-	+ Blog Single
-19. Contact CSS
-20. 404 Error CSS
-21. Footer CSS
-========================================*/
 .color-plate {
 	position: fixed;
 	display: block;
@@ -379,7 +342,7 @@ Version:1.0
 }
 /* Topbar Left Nav */
 .header.shop .left-nav{
-	
+
 }
 .header.shop .top-left .list-main li:first-child{
 	padding-left:0;
@@ -388,7 +351,7 @@ Version:1.0
 	display: inline-block;
 	margin-right: 4px;
 	font-size: 15px;
-	color: #F7941D;
+	color: #0b8e3f;
 	position: relative;
 	top: 3px;
 }
@@ -407,7 +370,7 @@ Version:1.0
 	display: inline-block;
 	margin-right: 4px;
 	font-size: 15px;
-	color: #F7941D;
+	color: #0b8e3f;
 	position: relative;
 	top: 1px;
 }
@@ -419,7 +382,7 @@ Version:1.0
 	color:#333;
 }
 .header.shop .list-main li a:hover{
-	color:#F7941D;
+	color:#0b8e3f;
 }
 .header.shop .nav li {
 	margin-right: 40px;
@@ -546,7 +509,7 @@ Version:1.0
 	width: 70px;
 	height: 70px;
 	border-radius:0;
-	
+
 }
 .header .shopping-list .cart-img:hover img{
 	transform:scale(1.09);
@@ -723,7 +686,7 @@ Version:1.0
 }
 .header.shop .search-bar .btnn:hover{
 	color:#fff;
-	background:#F7941D;
+	background:#0b8e3f;
 }
 /* Search Form */
 .header.shop .search-top {
@@ -745,7 +708,7 @@ Version:1.0
 	border:none;
 }
 .header.shop .header-inner {
-	background: #333;
+    background: #0b8f40;
 }
 .header.shop.v3 .header-inner {
 	background: transparent;
@@ -955,9 +918,9 @@ Version:1.0
 	-moz-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
-.header.shop .nav li:hover a{
-	color:#fff;
-	background:#F7941D;
+.header.shop .nav li:hover a {
+    color: #fff;
+    background: #285a2a;
 }
 .header.shop.v2 .nav li:hover a{
 	color:#F7941D;
@@ -965,7 +928,7 @@ Version:1.0
 }
 .header.shop .nav li.active a{
 	color:#fff;
-	background:#F7941D;
+	background:#285a2a;
 }
 .header.shop.v2 .nav li.active a{
 	color:#333 !important;
@@ -1043,7 +1006,7 @@ Version:1.0
 	position: absolute;
 	top: -7px;
 	right: -8px;
-	background: #f6931d;
+	background: #0b8e3f;
 	width: 18px;
 	height: 18px;
 	line-height: 18px;
@@ -1144,7 +1107,7 @@ Version:1.0
 .header.sticky .all-category{}
 .header.sticky .all-category h3{
 	cursor:pointer;
-	
+
 }
 .header.sticky .all-category .main-category{
 	opacity:0;
@@ -1207,7 +1170,7 @@ Version:1.0
 
 /*======================================
    Hero Area CSS
-========================================*/ 
+========================================*/
 .hero-slider {
 	background: #fff;
 	overflow: hidden;
@@ -1221,7 +1184,7 @@ Version:1.0
     height: 510px;
 }
 .hero-slider .text-inner {
-	
+
 }
 .hero-slider .hero-text {
 	padding: 0 30px;
@@ -1454,7 +1417,7 @@ Version:1.0
 }
 /* Hero Area 4 */
 .hero-area4 .big-content{
-	
+
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1523,11 +1486,11 @@ Version:1.0
 
 /*======================================
    End Hero Area CSS
-========================================*/ 
+========================================*/
 
 /*======================================
    Start Small Banner CSS
-========================================*/ 
+========================================*/
 .small-banner{
 	padding:30px 0;
 	padding-bottom:0;
@@ -1582,11 +1545,11 @@ Version:1.0
 }
 /*======================================
    End Small Banner CSS
-========================================*/ 
+========================================*/
 
 /*======================================
    Start Mid Banner CSS
-========================================*/ 
+========================================*/
 .midium-banner{
 	padding:0;
 }
@@ -1648,7 +1611,7 @@ Version:1.0
 }
 /*======================================
    End Mid Banner CSS
-========================================*/ 
+========================================*/
 
 /*======================================
    Start Most Popular CSS
@@ -1734,7 +1697,7 @@ Version:1.0
 }
 .product-area .nav-tabs li:last-child a{
 	border-color:transparent;
-} 
+}
 .product-area .nav-tabs li a i{
 	margin-right:10px;
 }
@@ -2142,7 +2105,7 @@ Version:1.0
 	margin-top: 10px;
 }
 .shop-sidebar .categor-list li{
-	
+
 }
 .shop-sidebar .categor-list li {
 	margin-bottom: 10px;
@@ -2613,7 +2576,7 @@ Version:1.0
 	border-color:transparent;
 }
 .shop.single .tab-single {
-	
+
 }
 .shop.single .single-des {
 	margin-top:35px;
@@ -2622,7 +2585,7 @@ Version:1.0
 	margin-bottom:15px;
 	font-weight:500;
 	font-size:22px;
-	
+
 }
 .shop.single .single-des ul{}
 .shop.single .single-des ul li {
@@ -2833,7 +2796,7 @@ Version:1.0
 	content: "";
 	height: 2px;
 	width: 50px;
-	background: #F7941D;
+	background: #0b8e3f;
 	left: 0;
 	bottom: -1px;
 }
@@ -2991,7 +2954,7 @@ Version:1.0
 	transform:rotate(360deg);
 }
 .shopping-cart .border{
-	
+
 }
 .shopping-cart .table .remove-icon{
 	font-size:16px;
@@ -3148,7 +3111,7 @@ Version:1.0
 	padding-left: 100px;
 }
 .shopping-cart .total-amount .right ul{
-	
+
 }
 .shopping-cart .total-amount .right ul li {
 	font-size: 15px;
@@ -3234,7 +3197,7 @@ Version:1.0
 	background: #F6F7FB;
 }
 .shop.checkout .form .form-group input:hover{
-	
+
 }
 .shop.checkout .nice-select {
 	width: 100%;
@@ -3673,7 +3636,7 @@ Version:1.0
 	margin-top:40px;
 	width: 80px;
 	display:inline-block;
-	
+
 }
 .cown-down .content .cdown {
 	text-align: center;
@@ -3764,7 +3727,7 @@ Version:1.0
 	margin-bottom:30px;
 }
 .shop-newsletter .inner p span{
-	color:#F7941D;
+	color:#0b8e3f;
 }
 .shop-newsletter .newsletter-inner{
 	position:relative;
@@ -3796,7 +3759,7 @@ Version:1.0
 	padding: 10px 30px;
 	position: relative;
 	top: 0;
-	background: #F7941D;
+	background: #0b8e3f;
 	color: #fff;
 	left: -4px;
 	border-radius: 0 30px 30px 0;
@@ -3932,7 +3895,7 @@ Version:1.0
 .about-us .about-img img{
 	height:100%;
 	width:100%;
-	
+
 }
 /*=============================
 	End About US CSS
@@ -3940,7 +3903,7 @@ Version:1.0
 
 /*======================================
   10. Start Team CSS
-========================================*/  
+========================================*/
 .team{
 	background:#F6F7FB;
 }
@@ -4003,7 +3966,7 @@ Version:1.0
 }
 /*======================================
   End Team CSS
-========================================*/ 
+========================================*/
 
 /*======================================
    Start Shop Blog CSS
@@ -4148,7 +4111,7 @@ Version:1.0
 	margin-top: 15px;
 }
 .main-sidebar .categor-list li{
-	
+
 }
 .main-sidebar .categor-list li {
 	margin-bottom: 10px;
@@ -4194,7 +4157,7 @@ Version:1.0
 	border:none;
 }
 .main-sidebar .single-post .image {
-	
+
 }
 .main-sidebar .single-post .image img{
 	float: left;
@@ -4262,7 +4225,7 @@ Version:1.0
 }
 /* Blog Newslatter CSS */
 .main-sidebar .newsletter{
-	
+
 }
 .main-sidebar .newsletter .letter-inner {
 	position:relative;
@@ -4461,7 +4424,7 @@ Version:1.0
 	background:#F7941D;
 }
 .blog-single .comments{
-	
+
 }
 .blog-single .comments .single-comment {
 	position: relative;
@@ -4480,7 +4443,7 @@ Version:1.0
 	left: 0;
 }
 .blog-single .single-comment .content {
-	
+
 }
 .blog-single .single-comment .content h4 {
 	color: #333;
@@ -4614,7 +4577,11 @@ Version:1.0
 	font-size: 17px;
 	font-weight: 500;
 	margin-bottom: 5px;
-	color: #F7941D;
+	color: #0b8e3f;
+}
+.error {
+    font-size: 10px !important;
+    color: red !important;
 }
 .contact-us .title h3 {
 	font-size: 25px;
@@ -4641,7 +4608,7 @@ Version:1.0
 	text-align: center;
 	border-radius: 3px;
 	line-height: 40px;
-	background:#F7941D;
+	background:#0b8e3f;
 }
 .contact-us .single-info ul
 .contact-us .single-info ul li{
@@ -4838,7 +4805,7 @@ Version:1.0
 	display: block;
 }
 .footer .about .call a {
-	color: #f7941d;
+	color: #0b8e3f;
 	font-size: 20px;
 	font-weight: 600;
 }
@@ -4890,7 +4857,7 @@ Version:1.0
 }
 /* Copyright */
 .footer .copyright{
-	
+
 }
 .footer .copyright .inner{
 	border-top:1px solid #eeeeee3d;

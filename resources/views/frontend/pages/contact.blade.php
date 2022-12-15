@@ -3,7 +3,7 @@
 @section('main-content')
 
 <head>
-  <title> Online Musical Instrument Shop || Contact-Us</title>
+  <title> Contact-Us</title>
   @include('backend.layouts.head')
 
 </head>
