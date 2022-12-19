@@ -141,24 +141,24 @@
 /* End Preloader */
 
 .btn {
-	position: relative;
-	font-weight: 500;
-	font-size:14px;
-	color: #fff;
-	background: #333;
-	display: inline-block;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-	z-index: 5;
-	display: inline-block;
-	padding: 13px 32px;
-	border-radius: 0px;
-	text-transform:uppercase;
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    background: #0b8f40;
+    display: inline-block;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    z-index: 5;
+    display: inline-block;
+    padding: 13px 32px;
+    border-radius: 0px;
+    text-transform: uppercase;
 }
-.btn:hover{
-	color:#fff;
-	background:#F7941D;
+.btn:hover {
+    color: #fff;
+    background: #2da55d;
 }
 #scrollUp {
 	right: 10px;
@@ -560,9 +560,9 @@
 	font-size: 14px;
 	font-weight: 500;
 }
-.header .shopping-item .bottom .btn:hover{
-	background:#F7941D;
-	color:#fff;
+.header .shopping-item .bottom .btn:hover {
+    background: #0b8f40;
+    color: #fff;
 }
 .header.shop{
 	background:#fff;
@@ -1566,17 +1566,18 @@
 	transition:all 0.4s ease;
 }
 .midium-banner .single-banner .content {
-	padding-left:50px;
-	position: absolute;
-	left: 0;
-	top: 50%;
-	transform:translateY(-50%);
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #0b8f409c;
 }
 .midium-banner .single-banner h3 {
 	font-size: 27px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #333;
+	color: #fff;
 	line-height: 30px;
 }
 .midium-banner .single-banner h3 span{
@@ -1607,9 +1608,9 @@
 	margin-top: 25px;
 	text-transform: uppercase;
 }
-.midium-banner .single-banner a:hover{
-	background:#F7941D;
-	color:#fff;
+.midium-banner .single-banner a:hover {
+    background: #3ba563;
+    color: #fff;
 }
 /*======================================
    End Mid Banner CSS
@@ -1657,9 +1658,9 @@
 	transition:all 0.4s ease;
 	box-shadow: 0px 0px 10px #3333331c;
 }
-.most-popular .owl-carousel .owl-nav div:hover{
-	color:#fff;
-	background:#F7941D;
+.most-popular .owl-carousel .owl-nav div:hover {
+    color: #fff;
+    background: #0b8f40;
 }
 .most-popular .owl-carousel .owl-controls .owl-nav .owl-prev{
 	left:0;
@@ -2572,10 +2573,10 @@
 	margin-right:10px;
 }
 .shop.single .nav-tabs li a.active,
-.shop.single .nav-tabs li:hover a{
-	background:#F7941D;
-	color:#fff;
-	border-color:transparent;
+.shop.single .nav-tabs li a.active, .shop.single .nav-tabs li:hover a {
+    background: #0b8f40;
+    color: #fff;
+    border-color: transparent;
 }
 .shop.single .tab-single {
 
