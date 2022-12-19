@@ -1508,17 +1508,18 @@
 	transition:all 0.4s ease;
 }
 .small-banner .single-banner .content {
-	position: absolute;
-	left: 0;
-	top: 50%;
-	transform: translateY(-50%);
-	padding-left: 35px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 35px;
+    background: #0b8f409c;
 }
 .small-banner .single-banner h3 {
-	font-size: 22px;
-	font-weight: 700;
-	text-transform: capitalize;
-	color: #333;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
 }
 .small-banner .single-banner h3 span{
 	color:#F7941D;
@@ -1531,18 +1532,18 @@
 	text-transform: capitalize;
 }
 .small-banner .single-banner a {
-	color: #333;
-	margin-top: 22px;
-	display: block;
-	font-size: 12px;
-	font-weight:500;
-	display: inline-block;
-	text-transform:uppercase;
-	border-bottom:2px solid #333;
+    color: #fff;
+    margin-top: 22px;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
 }
-.small-banner .single-banner a:hover{
-	color:#F7941D;
-	border-color:#F7941D;
+.small-banner .single-banner a:hover {
+    color: #c5c5c5;
+    border-color: #b7b6b4;
 }
 /*======================================
    End Small Banner CSS
