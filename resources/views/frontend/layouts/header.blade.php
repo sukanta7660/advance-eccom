@@ -33,7 +33,7 @@
                                 <li><i class="ti-power-off"></i> <a href="{{route('user.logout')}}">Logout</a></li>
 
                             @else
-                                <li><i class="ti-power-off"></i><a href="{{route('login')}}">Login /</a> <a href="{{route('register')}}">Register</a></li>
+                                <li><i class="ti-power-off"></i><a href="{{url('user/login')}}">Login /</a> <a href="{{url('user/register')}}">Register</a></li>
                             @endauth
                         </ul>
                     </div>

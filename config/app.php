@@ -167,7 +167,6 @@ return [
         Intervention\Image\ImageServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
         Srmklive\PayPal\Providers\PayPalServiceProvider::class,
-        Laravel\Socialite\SocialiteServiceProvider::class,
         /*
          * Package Service Providers...
          */
